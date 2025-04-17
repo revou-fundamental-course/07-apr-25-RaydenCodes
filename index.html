@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Company</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">O</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile">Our Profile</a></li>
+        <li><a href="#contact">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1 id="welcomeText">Hi!</h1>
+  </section>
+
+  <section id="profile">
+    <img src="img/banner.jpg" alt="Company Banner" class="banner">
+    <div class="profileContent">
+      <h2>About the Company</h2>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <h2>Vision & Mission</h2>
+      <p>Vision: To be awesome<br>Mission: Spread awesomeness</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Message Us</h2>
+    <form id="contactForm">
+      <input type="text" id="nameInput" placeholder="Your Name" required>
+      <input type="email" id="emailInput" placeholder="Your Email" required>
+      <textarea id="messageInput" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div id="formResult"></div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
